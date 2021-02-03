@@ -92,11 +92,6 @@ table tfoot{
   font-weight: bold;
 }
 
-.row{
-  display: flex;
-  flex-direction: row;
-}
-
 article{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
@@ -144,6 +139,11 @@ article h2.open-forever{
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 button{
