@@ -203,27 +203,27 @@ footer{
   text-align: center;
 }
 
-.productPageHead{
+.product-page-head{
   margin: 0 auto;
   width: 60%;
 }
 
-.productPage{
+.product-page{
   margin: 0 auto;
   width: 60%;
   display: flex;
   flex-direction: row;
 }
 
-.textProductPage p span{
+.text-product-page p span{
   font-weight: bold;
 }
 
-.textProductPage{
+.text-product-page{
   width: 50%;
 }
 
-.imgProduct{
+.img-product{
   width: 50%;
 }
 
@@ -264,15 +264,15 @@ footer{
    display: inline;
   }
   
-  .productPage{
+  .product-page{
     display: inline;
   }
 
-  .productPageHead{
+  .product-page-head{
     width: 100%;
   }
 
-  .textProductPage{
+  .text-product-page{
     width: 100%;
   }
   
