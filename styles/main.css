@@ -203,22 +203,28 @@ footer{
   text-align: center;
 }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-  Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
-*/
+.productPageHead{
+  margin: 0 auto;
+  width: 60%;
+}
 
-@media (max-width: 480px) {
-  .hidden-on-lg{
-    display: block;
-  }
-  .hidden-on-sm{
-    display: none;
-  }
-  .sidy-by-side{
-   display: inline;
-  }
+.productPage{
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.textProductPage p span{
+  font-weight: bold;
+}
+
+.textProductPage{
+  width: 50%;
+}
+
+.imgProduct{
+  width: 50%;
 }
 
 /* 
@@ -239,6 +245,38 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+*/
+
+@media (max-width: 480px) {
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+  .sidy-by-side{
+   display: inline;
+  }
+  
+  .productPage{
+    display: inline;
+  }
+
+  .productPageHead{
+    width: 100%;
+  }
+
+  .textProductPage{
+    width: 100%;
+  }
+  
+
 }
 
 /*
